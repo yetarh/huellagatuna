@@ -1,6 +1,12 @@
 body{
-    background-color: orange;
+	background: black;
 }
 h1{
-    font-family: 'Sour Crunch', sans-serif;
+	color: red;
+}
+h2{
+	color: red;
+}
+h3{
+	color: red;
 }
