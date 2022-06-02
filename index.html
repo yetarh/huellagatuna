@@ -1,11 +1,61 @@
-<!DOCTYPE html>
 <html>
-<head>
-	<title>Roblox no oficial</title>
-</head>
-<body>
-	<h1>¿A quien no le gusta jugar videojuegos?</h1>
-	<h3>Realizando una prectica...</h3>
-	<h2>pagina hecha por Yareth y Lorena</h2>
-</body>
+  <head>
+       <title>index.hml</title>
+  </head>
+    <h1>operacion</h1>
+    <h3>Yareth Pazarón<h3>
+  <form name="registro">
+    <body>
+      <table>
+        <tr>
+          <td>numero:</td>
+          <td><input type="text" name="dato1" Id="dato1"></td>
+          <td>numero:</td>
+          <td><input type="text" name="dato2" Id="dato2"></td>
+        </tr>
+      </table>
+      <table>
+        <tr> 
+          <td>Operacion</td>
+          <td><input type="button" name="enviar" value="+" onclick="sumadedatos()"></td>
+          <td><input type="button" name="enviar" value="-" onclick="restadedatos()"></td>
+          <td><input type="button" name="enviar" value="×" onclick="multiplicaciondedatos()"></td>
+          <td><input type="button" name="enviar" value="/" onclick="divisiondedatos()"></td>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <td>Resultado</td>
+          <td><input type="text" name="jin"></td> 
+        </tr>
+      </table> 
+  </form>
+
+    <script type="text/javascript">
+      function sumadedatos(){
+        var d1=parseInt(document.getElementById('dato1').value);
+        var d2=parseInt(document.getElementById('dato2').value);
+        document.registro.jin.value=d1+d2;
+      }
+
+      function restadedatos(){
+        var d1=parseInt(document.getElementById('dato1').value);
+        var d2=parseInt(document.getElementById('dato2').value);
+        document.registro.jin.value=d1-d2;
+      }
+
+      function multiplicaciondedatos(){
+        var d1=parseInt(document.getElementById('dato1').value);
+        var d2=parseInt(document.getElementById('dato2').value);
+        document.registro.jin.value=d1*d2;
+      }
+
+      function multiplicaciondedatos(){
+        var d1=parseInt(document.getElementById('dato1').value);
+        var d2=parseInt(document.getElementById('dato2').value);
+        document.registro.jin.value=d1/d2;
+  }
+    </script>
+
+    </body>
 </html>
