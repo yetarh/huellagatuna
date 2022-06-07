@@ -1,0 +1,18 @@
+[
+	{
+		"id":1,
+		"nombre":"superman",
+		"edad":"30",
+		"identidadsecreta":"Clark Kent",
+		"poderes":"superfuerza, supervelocidad, invurenavilidad, vision calorifica"
+	},
+	{
+
+		"id":2,
+		"nombre":"superman",
+		"edad":"30",
+		"identidadsecreta":"Clark Kent",
+		"poderes":"superfuerza, supervelocidad, invurenavilidad, vision calorifica"
+		
+	}
+]
