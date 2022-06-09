@@ -1,0 +1,70 @@
+body{
+  background-color: #E0FFFF;
+}
+h1{
+  color: #191970;
+  text-shadow: 0 0 5px #F86E48;
+  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Fugaz One', cursive;
+  font-family: 'Shrikhand', cursive;
+}
+
+#target {
+    max-width:100%;
+    width:600px;
+    margin:0 auto;
+   
+  }
+  .image-list {
+      position:relative;
+      float: left;
+      display:inline;
+  }
+  .image-styles {
+      margin:15px;
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+      width: 600px;
+      height: 500px;
+  }
+  .image-nombre {
+      background:#EB194D;
+      width:89.8%;
+      position:absolute;
+      bottom:65px;
+      left:15px;
+      color:#f7f7f7;
+      text-align:center;
+      padding:2px;
+      opacity:0.6;
+      filter:alpha(opacity=60);
+      /* For IE8 and earlier */
+  }
+  .image-poderes
+  {
+    background: #8FBC8F;
+    width:89.8%;
+    position:absolute;
+    bottom:15px;
+    left:15px;
+    color:#f7f7f7;
+    text-align:center;
+    padding:2px;
+    opacity:0.6;
+    filter:alpha(opacity=60);
+      /* For IE8 and earlier */
+  }
+
+  .image-real {
+    background:#BA55D3;
+    width:89.8%;
+    position:absolute;
+    bottom:40px;
+    left:15px;
+    color:#f7f7f7;
+    text-align:center;
+    padding:2px;
+    opacity:0.6;
+    filter:alpha(opacity=60);
+    /* For IE8 and earlier */
+}
