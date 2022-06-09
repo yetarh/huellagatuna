@@ -1,11 +1,150 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Roblox no oficial</title>
+	<link rel="stylesheet" type="text/css" href="martes.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fugaz+One&family=Shrikhand&display=swap" rel="stylesheet">
+	<title>Objectos JS</title>
 </head>
 <body>
-	<h1>¿A quien no le gusta jugar videojuegos?</h1>
-	<h3>Realizando una prectica...</h3>
-	<h2>pagina hecha por Yareth y Lorena</h2>
+	<h1>Otra manera de trabajar con JSON y ac</h1>
+	<div id="target"></div>
+	<script>
+		let data={
+			"response":{
+				"docs":[
+				{"id":"1",
+				"nombre":"Raza: ABISINIO",
+				"real":"Pa&iacutes de origen: Abisinia (Etiop&iacutea)",
+				"poderes":"Personalidad:silencioso, inteligente y curioso",
+				"imagen":"CAT BREED Hero Mobile_0044_Abyssinian.webp" },
+
+				{"id":"2",
+				"nombre":"Raza: BOBTAIL JAPON&#201S",
+				"real":"Pa&iacutes de origen: Jap&oacuten",
+				"poderes":"Personalidad:simp&aacutetico e inteligente",
+				"imagen":"CAT BREED Hero Mobile_0026_Japanese_bobtail_shorthair.webp"},
+
+				{"id":"3",
+				"nombre":"Raza:BOSQUE DE SIBERIA",
+				"real":"Pa&iacutes de origen: Rusia",
+				"poderes":"Personalidad: cari&ntildeoso, fiel y sociable",
+				"imagen":"CAT BREED Hero Mobile_0007_Siberian_forest_OG.webp"},
+
+				{"id":"4",
+				"nombre":"Raza: BENGAL&#205",
+				"real":"Pa&iacutes de origen: EE. UU.",
+				"poderes":"Personalidad: cari&ntildeoso y muy jugeton",
+				"imagen":"CAT BREED Hero Mobile_0039_Bengal.webp"},
+
+				{"id":"5",
+				"nombre":"Raza: LAPERM",
+				"real":"Pa&iacutes de origen: EE. UU.",
+				"poderes":"Personalidad: tranquilo, silencioso y cari&ntildeoso ",
+				"imagen":"CAT BREED Hero Mobile_0023_La_perms_OG.webp"},
+
+				{"id":"6",
+				"nombre":"Raza: BURMILLA",
+				"real":"Pa&iacutes de origen: Gran Breta&ntildea",
+				"poderes":"Personalidad: requiere mucha atencion",
+				"imagen":"CAT BREED Hero Mobile_0034_Burmilla.webp"},
+
+				{"id":"7",
+				"nombre":"Raza: BOSQUE DE NORUEGA",
+				"real":"Pa&iacutes de origen: Escandinavia",
+				"poderes":"Personalidad: le encanta ser sociable",
+				"imagen":"CAT BREED Hero Mobile_0019_Norwegian_forest.webp"},
+
+				{"id":"8",
+				"nombre":"Raza: AMERICANO DE PELO DURO",
+				"real":"Pa&iacutes de origen: Estados Unidos",
+				"poderes":"Personalidad: tranquilo, amistoso y apasible",
+				"imagen":"CAT BREED Hero Mobile_0043_American_wirehair_OG.webp"},
+
+				{"id":"9",
+				"nombre":"Raza: ASIATICO",
+				"real":"Pa&iacutes de origen: Gran Breta&ntildea",
+				"poderes":"Personalidad: amistoso y exigente",
+				"imagen":"cat_asian.jpg"},
+
+				{"id":"10",
+				"nombre":"Raza: AZUL RUSO",
+				"real":"Pa&iacutes de origen: Rusia",
+				"poderes":"Personalidad: callados y sensibles",
+				"imagen":"CAT HERO_0020_Russian_blue.jpg"},
+
+				{"id":"11",
+				"nombre":"Raza: BIRMANO",
+				"real":"Pa&iacutes de origen: Birmania/ Francia",
+				"poderes":"Personalidad: afectuoso y docil",
+				"imagen":"CAT HERO_0003_Birman.jpg"},
+
+				{"id":"12",
+				"nombre":"Raza: BOBTALI JAPONES DE PELO LARGO",
+				"real":"Pa&iacutes de origen: Japon",
+				"poderes":"Personalidad: simpatico e inteligente",
+				"imagen":"cat_japanese_bobtail_long_hair.jpg"},
+
+				{"id":"13",
+				"nombre":"Raza: BRITANICO DE PELO CORTO",
+				"real":"Pa&iacutes de origen: Gran Breta&ntildea",
+				"poderes":"Personalidad: amables y cari&ntildeoso",
+				"imagen":"CAT HERO_0004_British_shorthair.jpg"},
+
+				{"id":"14",
+				"nombre":"Raza: CYMRYC",
+				"real":"Pa&iacutes de origen: Reino Unido/Canada",
+				"poderes":"Personalidad: tranquilo, jugeton e inteligente",
+				"imagen":"cat_cymrics.jpg"},
+
+				{"id":"15",
+				"nombre":"Raza: CHINCHILLA",
+				"real":"Pa&iacutes de origen: Inglaterra",
+				"poderes":"Personalidad: dulce y afectuoso",
+				"imagen":"cat_chinchilla.jpg"},
+
+				{"id":"16",
+				"nombre":"Raza: EXOTICO DE PELO LARGO",
+				"real":"Pa&iacutes de origen: Estados Unidos",
+				"poderes":"Personalidad: caracter noble y silencioso",
+				"imagen":"CAT HERO_0010_Exotic_shorthair.jpg"},
+
+				{"id":"17",
+				"nombre":"Raza: MANX",
+				"real":"Pa&iacutes de origen: Gran Breta&ntildea",
+				"poderes":"Personalidad:cari&ntildeoso y caracter afable",
+				"imagen":"cat_manx.jpg"},
+
+				{"id":"18",
+				"nombre":"Raza: MAINE COON",
+				"real":"Pa&iacutes de origen: Estados Unidos",
+				"poderes":"Personalidad: dilce y jugeton",
+				"imagen":"CAT HERO_0012_Maine_coon.jpg"},
+
+				{"id":"19",
+				"nombre":"Raza: PERSA DE PELO LARGO",
+				"real":"Pa&iacutes de origen: Turquia e Iran",
+				"poderes":"Personalidad: tranquilo y cari&ntileoso",
+				"imagen":"CAT HERO_0017_Persian.jpg"},
+
+				{"id":"20",
+				"nombre":"Raza: MUNCHKIN",
+				"real":"Pa&iacutes de origen: EE. UU.",
+				"poderes":"Personalidad: dulce y extrovertido",
+				"imagen":"cat_munchkin.jpg"}
+				]
+		}   };
+		let target=document.querySelector('#target');
+		data=data.response.docs;
+		data.forEach((value, key)=>{
+			target.innerHTML+=` <div class="image-list">
+			<img src="${value.imagen}"class="image-styles"/>
+			<p class="image-nombre">${value.nombre}</p>
+			<p class="image-real">${value.real}</p>
+			<p class="image-poderes">${value.poderes}</p>
+			</div>`
+		});
+	</script>
 </body>
 </html>
