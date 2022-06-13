@@ -4,7 +4,8 @@
 		"nombre":"superman",
 		"edad":"30",
 		"identidadsecreta":"Clark Kent",
-		"poderes":"superfuerza, supervelocidad, invurenavilidad, vision calorifica"
+		"poderes":"superfuerza, supervelocidad, invurenavilidad, vision calorifica"',
+		"imagen":"Adele.jpg"
 	},
 	{
 
@@ -13,6 +14,7 @@
 		"edad":"30",
 		"identidadsecreta":"Clark Kent",
 		"poderes":"superfuerza, supervelocidad, invurenavilidad, vision calorifica"
+		"imagen":"Linkin.jpg"
 		
 	}
 ]
